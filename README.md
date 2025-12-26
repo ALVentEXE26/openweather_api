@@ -99,4 +99,6 @@ The application uses three OpenWeatherMap endpoints:
 - Add `config.js` to `.gitignore`
 
 ## Screenshot
-![Uploading image.png…]()
+<img width="858" height="937" alt="image" src="https://github.com/user-attachments/assets/7cd939c2-7ea6-44f1-b45c-6988505d3262" />
+
+
