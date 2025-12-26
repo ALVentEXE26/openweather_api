@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <header class="weather-header">
+            <h1 class="weather-title">Weather App</h1>
+        </header>
+
+        <main class="weather-main">
+            <div class="weather-search-section">
+                <div class="weather-search-box">
+                    <input 
+                        type="text" 
+                        id="weather-search-input" 
+                        class="weather-search-input" 
+                        placeholder="Enter city name"
+                        autocomplete="off"
+                    >
+                    <button 
+                        id="weather-search-btn" 
+                        class="weather-search-btn"
+                    >
+                        Search
+                    </button>
+                </div>
+            </div>
+
+            <div id="weather-loading" class="weather-loading">
+                <div class="weather-spinner"></div>
+                <p>Loading...</p>
+            </div>
+
+            <div id="weather-error" class="weather-error"></div>
+
+            <div id="weather-results" class="weather-results"></div>
+        </main>
+
+        <footer class="weather-footer">
+            <p>Weather data provided by <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">OpenWeatherMap API</a></p>
+        </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
